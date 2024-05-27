@@ -3,7 +3,6 @@ pandas == 2.2.1
 streamlit
 scikit-learn
 scikit-fuzzy
-sklearn
 pip == 24.0
 matplotlib == 3.8.0
 Seaborn == 0.12.2
