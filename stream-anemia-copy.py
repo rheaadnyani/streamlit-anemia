@@ -1,9 +1,9 @@
 import numpy as np
-import pickle
+import joblib
 import streamlit as st
 
 # Membaca model
-anemia_model = pickle.load(open('Coba_lagi_RF_model.sav', 'rb'))
+anemia_model = joblib.load('Coba_lagi_RF_model.sav')
 
 # Judul web
 st.title('Prediksi Anemia Pada Anak Usia 6-59 Bulan')
